@@ -1,0 +1,6 @@
+@import url('./variables.css');
+
+body {
+    background-color: var(--black);
+    height: 200vh;
+}
