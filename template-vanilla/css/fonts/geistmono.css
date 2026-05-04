@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'geist-mono';
+    src: url(./../../assets/fonts/ttf/GeistMono-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'geist-normal';
+    src: url(./../../assets/fonts/geist/Geist-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.geist-mono-regular {
+    font-family: 'geist-mono', sans-serif;
+}
+
+.geist-normal {
+    font-family: 'geist-normal', sans-serif;
+}

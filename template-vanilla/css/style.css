@@ -1,6 +1,55 @@
 @import url('./variables.css');
+@import url('./fonts/geistmono.css');
 
 body {
     background-color: var(--black);
     height: 200vh;
+}
+
+.profile-img {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid rgb(136, 136, 136);
+    display: block;
+}
+
+nav {
+    padding: 0;
+    margin: 0;
+}
+
+.content-profile {
+    margin: 2rem 1rem 1px 1rem;
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+
+    .description-profile {
+        padding-inline: 10px;
+
+        .user-name {
+            font-size: 1rem;
+            color: #ececec;
+            letter-spacing: 1px;
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+
+        .user-description {
+            font-size: .7rem;
+            letter-spacing: -.2px;
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+}
+
+linha-guia {
+    padding: 0;
+    margin: 0;
 }
